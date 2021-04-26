@@ -2,3 +2,5 @@
 // 2. Team leader opens repository
 // 3. collaboration coding in branches
 // 4. Team leader conducts code review and merges brunch to main
+const iftach = "was here";
+const master =  "we are all master"
