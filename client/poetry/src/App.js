@@ -21,7 +21,7 @@ function App() {
         </Helmet> */}
    <Switch>
       <Route exact path="/" component={Home} />
-      <Route exact path="/header" component={Header} />
+      <Route exact path="/header/:category" component={Header} />
       <Route exact path="/Songlist" component={Songlist} />
       <Route exact path="/Songpage" component={Songpage} />
 
