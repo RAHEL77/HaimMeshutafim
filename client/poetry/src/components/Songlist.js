@@ -38,13 +38,3 @@ const Songlist = () => {
 };
 
 export default Songlist;
-
-// function Songlist() {
-//   return (
-//     <div id="Songlist">
-// this is Songlist
-//     </div>
-//   );
-// }
-
-// export default Songlist;
