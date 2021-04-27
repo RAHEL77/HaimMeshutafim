@@ -1,12 +1,13 @@
 
 import Songlist from './Songlist'
+import Topicslist from './Topicslist'
 
 function Home() {
   return (
     <div className="home">
 
      
- <Songlist /> 
+ <Topicslist /> 
     </div>
   );
 }
