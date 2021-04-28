@@ -1,6 +1,6 @@
 import './App.css';
 import Songlist from './components/Songlist';
-import Songpage from './components/Songpage';
+import Poempage from './components/Poempage';
 import NotFound from "./components/NotFound";
 import {BrowserRouter , Route, Switch } from 'react-router-dom'
 import Home from './components/Home';
@@ -20,7 +20,7 @@ function App() {
       <Route exact path="/" component={Home} />
       <Route exact path="/header/:category" component={Header} />
       <Route exact path="/Songlist" component={Songlist} />
-      <Route exact path="/Songpage" component={Songpage} />
+      <Route exact path="/Poempage" component={Poempage} />
 
       <Route component={NotFound} />
     

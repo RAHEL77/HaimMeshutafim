@@ -19,7 +19,7 @@ const Topicslist = () => {
               className="links"
               key={topic._id}
             >
-              {topic._id}
+              {topic.poemName}
               <br />
             </Link>
             </>

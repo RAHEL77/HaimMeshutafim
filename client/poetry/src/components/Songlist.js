@@ -14,7 +14,7 @@ const Songlist = () => {
         data.map((song) => {
           return (
             <Link
-              to={{ pathname: `/${song.poemName}`, query: song }}
+              to={{ pathname: `Poempage/${song.poemName}`, query: song }}
               className="links"
               key={song._id}
             >
