@@ -20,7 +20,7 @@ function App() {
       <Route exact path="/" component={Home} />
       <Route exact path="/header/:category" component={Header} />
       <Route exact path="/Songlist" component={Songlist} />
-      <Route exact path="/Poempage" component={Poempage} />
+      <Route exact path="/Poempage/:songname" component={Poempage} />
 
       <Route component={NotFound} />
     
