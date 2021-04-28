@@ -1,5 +1,3 @@
 
-
-# The app will translate songs from  Arabic to Hebrew
-
+# The app will translate poetry from Arabic to Hebrew
 
