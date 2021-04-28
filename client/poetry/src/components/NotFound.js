@@ -1,11 +1,14 @@
+import { Link } from 'react-router-dom'
 
 function NotFound() {
     return (
       <div>
-Page not found 404
-
+השיר שחיפשת לא נמצא... 
+<Link to="/">חזרה לקטגוריות</Link>
       </div>
     );
   }
 
   export default NotFound;
+
+  
